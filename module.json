@@ -1,0 +1,32 @@
+{
+  "id": "flatline-double",
+  "title": "Flatline Double",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "A Foundry VTT DSN add on that adds effects only on doubles",
+  "authors": [
+    {
+      "name": "KillerDiek",
+      "discord": "KillerDiek",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+	  "main.js"
+  ],
+  "url": "https://github.com/KillerDiek/fl-db",
+  "manifest": "https://raw.githubusercontent.com/KillerDiek/fl-db/main/module.json",
+  "download": "https://github.com/KillerDiek/fl-db/releases/download/v0.0.1/fl-db-v0.0.1.zip"
+}
